@@ -6,7 +6,12 @@ public class TestngFacebook {
 	@Test
 	public void setUp()
 	{
-		System.out.println("Testing");
+		System.out.println(" Start Testing");
+	}
+	
+	public void tearDown()
+	{
+		System.out.println("Testing End");
 	}
 
 }
