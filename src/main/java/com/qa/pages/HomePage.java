@@ -5,5 +5,9 @@ public class HomePage {
 	{
 		System.out.println("Home page Elements");
 	}
+	public HomePage()
+	{
+		System.out.println("Constrector has been created");
+	}
 
 }
